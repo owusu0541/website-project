@@ -1,0 +1,9 @@
+scp -i my-website.pem index.html style.css ubuntu@34.230.4.155:/tmp/
+
+sudo mv /tmp/index.html /var/www/html/
+sudo mv /tmp/style.css /var/www/html/
+sudo chown www-data:www-data /var/www/html/index.html /var/www/html/style.css
+sudo chmod 644 /var/www/html/index.html /var/www/html/style.css
+sudo rm -f /var/www/html/index.html.save
+
+

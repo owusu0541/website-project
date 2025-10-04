@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #002b5b;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+header h1 { margin: 0; }
+
+/* Navigation */
+nav {
+  background-color: #004b87;
+  padding: 0.8rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover { text-decoration: underline; }
+
+/* Section styling */
+section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #004b87;
+  padding-bottom: 0.3rem;
+  color: #004b87;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 1.5rem;
+}
+
+/* Project grid */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.project {
+  background-color: #f1f5f9;
+  border: 1px solid #d1d9e0;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.project h3 {
+  margin-top: 0;
+  color: #002b5b;
+}
+
+/* Links */
+a.link {
+  color: #004b87;
+  text-decoration: none;
+}
+a.link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #002b5b;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
